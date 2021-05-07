@@ -1,0 +1,23 @@
+{
+  "name": "discord.js-bos-altyapi",
+  "version": "1.0.0",
+  "main": "narcos.js",
+  "description": "narcos-bos-altyapi",
+  "scripts": {
+    "start": "node narcos.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "discord.js": "^12.5.3",
+    "quick.db": "^7.1.1",
+    "chalk": "^4.0.0",
+    "moment": "^2.26.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Narcos Code"
+  ]
+}
