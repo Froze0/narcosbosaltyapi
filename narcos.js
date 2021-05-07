@@ -128,9 +128,10 @@ client.yetkiler = message => {
   if(message.member.hasPermission("MANAGE_CHANNELS")) permlvl = 3;
   if(message.member.hasPermission("KICK_MEMBERS")) permlvl = 4;
   if(message.member.hasPermission("BAN_MEMBERS")) permlvl = 5;
-  if(message.member.hasPermission("ADMINISTRATOR")) permlvl = 6;
-  if(message.author.id === message.guild.ownerID) permlvl = 7;
-  if(message.author.id === client.conf.own) permlvl = 8;
+  if(message.member.hasPermission("MANAGE_GUILD")) permlvl = 6;
+  if(message.member.hasPermission("ADMINISTRATOR")) permlvl = 7;
+  if(message.author.id === message.guild.ownerID) permlvl = 8;
+  if(message.author.id === client.conf.own) permlvl = 9;
   return permlvl;
 };
 
